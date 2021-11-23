@@ -1,0 +1,54 @@
+input[type=text],input[type=password],select {
+    display: inline-block;
+    width: 200px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input[type=text]:focus,input[type=password]:focus,select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
+}
+
+
+input[type=button],input[type=submit] {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #007bff;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+input[type=button]{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #de0000;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(222, 0, 0, 0.62);
+    cursor: pointer;
+}
